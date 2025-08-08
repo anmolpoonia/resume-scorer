@@ -1,0 +1,31 @@
+// # INTEGRATE: This data would come from a 'jobs' table in your database.
+export const MOCK_JOBS = [
+  {
+    id: 1,
+    clientId: 1,
+    title: "Senior AI Engineer",
+    location: "San Francisco, CA (Remote)",
+    type: "Contract-to-Hire",
+    employmentType: "W2",
+    startDate: "2025-09-01",
+    salary: "$180k - $220k",
+    posted: "2d ago",
+    status: "Open",
+    recruiterId: 1,
+    description: "Seeking a Senior AI Engineer with expertise in building and deploying large-scale machine learning models.",
+  },
+  {
+    id: 2,
+    clientId: 2,
+    title: "UX/UI Designer",
+    location: "Boston, MA (Hybrid)",
+    type: "Full-time",
+    employmentType: "W2",
+    startDate: "2025-08-20",
+    salary: "$110k - $140k",
+    posted: "1w ago",
+    status: "Open",
+    recruiterId: 1,
+    description: "We are looking for a creative UX/UI Designer to create amazing user experiences.",
+  },
+];

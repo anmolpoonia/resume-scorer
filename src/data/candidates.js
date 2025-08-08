@@ -1,0 +1,66 @@
+// # INTEGRATE: This data would come from a 'candidates' table in your database.
+export const MOCK_CANDIDATES = [
+  {
+    id: 101,
+    name: "John Smith",
+    role: "Senior AI Engineer",
+    experience: "8 years",
+    education: "MS CS, Stanford",
+    location: "San Francisco, CA",
+    phone: "415-555-1234",
+    skills: ["Python", "PyTorch", "TensorFlow", "GCP", "Kubernetes", "FastAPI"],
+    availabilityStatus: "Available",
+    pipelineStatus: "Pending Technical Review",
+    statusHistory: [
+      { status: "Applied", date: "2025-07-25", actor: "System" },
+      {
+        status: "Pending Technical Review",
+        date: "2025-07-28",
+        actor: "Recruiter",
+      },
+    ],
+    notes: "Strong technical background, good communication skills.",
+    feedback: {
+      recruiter: "Excellent fit, let's get a technical screen.",
+      technical: "",
+      manager: "",
+    },
+    resumes: [{ name: "JohnSmith_Resume_AI.pdf", date: "2025-07-28" }],
+    associatedJobId: 1,
+    aiMatch: 95,
+  },
+  {
+    id: 103,
+    name: "Sarah Johnson",
+    role: "UX/UI Designer",
+    experience: "5 years",
+    education: "MFA Design, RISD",
+    location: "Boston, MA",
+    phone: "617-555-8765",
+    skills: ["Figma", "Sketch", "Adobe XD", "User Research", "Prototyping"],
+    availabilityStatus: "Available",
+    pipelineStatus: "Pending ACM Review",
+    statusHistory: [
+      { status: "Applied", date: "2025-07-26", actor: "System" },
+      {
+        status: "Technical Review Passed",
+        date: "2025-07-29",
+        actor: "Technical Reviewer",
+      },
+      {
+        status: "Pending ACM Review",
+        date: "2025-07-29",
+        actor: "Recruiter",
+      },
+    ],
+    notes: "Top candidate, great portfolio.",
+    feedback: {
+      recruiter: "Exceptional design sense.",
+      technical: "Portfolio is strong, understands user-centric principles.",
+      manager: "",
+    },
+    resumes: [],
+    associatedJobId: 2,
+    aiMatch: 92,
+  },
+];
